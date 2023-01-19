@@ -2,7 +2,6 @@
   "ci": {
     "collect": {
       "staticDistDir": "./build",
-      "maxAutodiscoverUrls": 3,
       "numberOfRuns": 2,
       "settings": {
         "preset": "desktop",
