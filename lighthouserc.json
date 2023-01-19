@@ -1,8 +1,9 @@
 {
   "ci": {
     "collect": {
+      "startServerCommand": "ng serve",
       "numberOfRuns": 1,
-      "url": ["https://www.independer.nl/"],
+      "url": ["http://localhost:4200/"],
       "settings": {
         "preset": "desktop",
         "chromeFlags": "--no-sandbox",
