@@ -1,0 +1,21 @@
+{
+  "ci": {
+    "collect": {
+      "staticDistDir": "./build",
+      "maxAutodiscoverUrls": 3,
+      "numberOfRuns": 2,
+      "settings": {
+        "preset": "desktop",
+        "chromeFlags": "--no-sandbox",
+        "skipAudits": ["uses-http2", "uses-long-cache-ttl", "link-text"]
+      }
+    },
+    "upload": {
+      "allowOverwriteOfLatestBranchBuild": true,
+      "ignoreIfBuildExists": true,
+      "target": "lhci",
+      "token": "ad24666d-e694-410f-a831-00d490b5566c",
+      "serverBaseUrl": "http://localhost:9001"
+    }
+  }
+}
