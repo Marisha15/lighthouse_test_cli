@@ -3,7 +3,7 @@
     "collect": {
       "startServerCommand": "ng serve",
       "numberOfRuns": 1,
-      "url": ["http://localhost:4200/"],
+      "url": ["https://www.independer.nl/zorgverzekering/intro.aspx"],
       "settings": {
         "preset": "desktop",
         "chromeFlags": "--no-sandbox",
@@ -19,3 +19,4 @@
     }
   }
 }
+˚
