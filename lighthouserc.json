@@ -1,8 +1,8 @@
 {
   "ci": {
     "collect": {
-      "staticDistDir": "./build",
-      "numberOfRuns": 2,
+      "numberOfRuns": 1,
+      "url": ["https://www.independer.nl/"],
       "settings": {
         "preset": "desktop",
         "chromeFlags": "--no-sandbox",
