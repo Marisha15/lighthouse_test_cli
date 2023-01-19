@@ -10,6 +10,25 @@
         "skipAudits": ["uses-http2", "uses-long-cache-ttl", "link-text"]
       }
     },
+    "assert": {
+      "preset": "lighthouse:no-pwa",
+      "assertions": {
+        "categories:performance": [
+          "warn",
+          {
+            "aggregationMethod": "optimistic",
+            "minScore": 0.70
+          }
+        ],
+        "categories:accessibility": [
+          "warn",
+          {
+            "aggregationMethod": "optimistic",
+            "minScore": 0.70
+          }
+        ]
+      }
+    },
     "upload": {
       "allowOverwriteOfLatestBranchBuild": true,
       "ignoreIfBuildExists": true,

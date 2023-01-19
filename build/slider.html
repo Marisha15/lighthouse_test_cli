@@ -109,7 +109,14 @@
   <input type="checkbox" id="checkbox">
   <label for="checkbox">Autoplay Slider</label>
 </div>
-
-
 </body>
+<script>
+  var divisor = document.getElementById("divisor"),
+    slider = document.getElementById("slider");
+  function moveDivisor() {
+    divisor.style.width = slider.value+"%";
+  }
+</script>
+
+
 </html>
